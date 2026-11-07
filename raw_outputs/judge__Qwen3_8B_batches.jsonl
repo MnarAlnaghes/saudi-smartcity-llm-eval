@@ -1,0 +1,4 @@
+{"n": 256, "wall_s": 39.758569955825806, "out_tokens": 110293, "gpu": "NVIDIA A100-SXM4-40GB"}
+{"n": 256, "wall_s": 54.72690963745117, "out_tokens": 98423, "gpu": "NVIDIA A100-SXM4-40GB"}
+{"n": 256, "wall_s": 53.578633069992065, "out_tokens": 95779, "gpu": "NVIDIA A100-SXM4-40GB"}
+{"n": 82, "wall_s": 40.846858978271484, "out_tokens": 33145, "gpu": "NVIDIA A100-SXM4-40GB"}

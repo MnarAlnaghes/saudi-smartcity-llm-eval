@@ -1,0 +1,12 @@
+{"n": 256, "wall_s": 344.24715209007263, "out_tokens": 187459, "gpu": "NVIDIA A100-SXM4-40GB"}
+{"n": 256, "wall_s": 615.5620431900024, "out_tokens": 415380, "gpu": "NVIDIA A100-SXM4-40GB"}
+{"n": 256, "wall_s": 479.7984595298767, "out_tokens": 290852, "gpu": "NVIDIA A100-SXM4-40GB"}
+{"n": 256, "wall_s": 288.14832830429077, "out_tokens": 189851, "gpu": "NVIDIA A100-SXM4-40GB"}
+{"n": 256, "wall_s": 279.46729922294617, "out_tokens": 121140, "gpu": "NVIDIA A100-SXM4-40GB"}
+{"n": 256, "wall_s": 246.58962726593018, "out_tokens": 88237, "gpu": "NVIDIA A100-SXM4-40GB"}
+{"n": 256, "wall_s": 420.4875867366791, "out_tokens": 226084, "gpu": "NVIDIA A100-SXM4-40GB"}
+{"n": 256, "wall_s": 245.9606282711029, "out_tokens": 98078, "gpu": "NVIDIA A100-SXM4-40GB"}
+{"n": 256, "wall_s": 233.92035961151123, "out_tokens": 112120, "gpu": "NVIDIA A100-SXM4-40GB"}
+{"n": 256, "wall_s": 258.23559403419495, "out_tokens": 73990, "gpu": "NVIDIA A100-SXM4-40GB"}
+{"n": 256, "wall_s": 228.99461913108826, "out_tokens": 78044, "gpu": "NVIDIA A100-SXM4-40GB"}
+{"n": 198, "wall_s": 275.18167185783386, "out_tokens": 126774, "gpu": "NVIDIA A100-SXM4-40GB"}

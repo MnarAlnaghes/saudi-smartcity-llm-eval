@@ -1,0 +1,245 @@
+{
+ "kappa": 0.9192085737840066,
+ "n_double_judged": 294,
+ "reliability": {
+  "ALLaM-7B": {
+   "not_attempted": 0.03333333333333333,
+   "precision": 0.034482758620689655,
+   "consistency": 0.4,
+   "format_viol": 0.10599999999999998,
+   "st_unparsable": 0.048666666666666664
+  },
+  "GPT-OSS-20B": {
+   "not_attempted": 0.043478260869565216,
+   "precision": 0.03146853146853147,
+   "consistency": 0.82,
+   "format_viol": 0.00666666666666671,
+   "st_unparsable": 0.006
+  },
+  "Gemma 4 12B": {
+   "not_attempted": 0.12666666666666668,
+   "precision": 0.04580152671755725,
+   "consistency": 0.88,
+   "format_viol": 0.0,
+   "st_unparsable": 0.0
+  },
+  "Qwen3-8B": {
+   "not_attempted": 0.03,
+   "precision": 0.061855670103092786,
+   "consistency": 0.68,
+   "format_viol": 0.014666666666666717,
+   "st_unparsable": 0.014666666666666666
+  },
+  "Llama 3.1 8B": {
+   "not_attempted": 0.7766666666666666,
+   "precision": 0.16417910447761194,
+   "consistency": 0.44,
+   "format_viol": 0.07866666666666666,
+   "st_unparsable": 0.05333333333333334
+  }
+ },
+ "efficiency": {
+  "ALLaM-7B": {
+   "deploy": "Local GPU",
+   "out_mean": 181.59471516815373,
+   "coverage": 1.0,
+   "tps": 1235.577417597519,
+   "time100": 14.62987545079242,
+   "paid100": NaN,
+   "gpu": "NVIDIA A100-SXM4-40GB"
+  },
+  "GPT-OSS-20B": {
+   "deploy": "Local GPU",
+   "out_mean": 1274.736607142857,
+   "coverage": 0.9993136582017845,
+   "tps": 2893.397003642115,
+   "time100": 44.029569072128524,
+   "paid100": NaN,
+   "gpu": "NVIDIA A100-SXM4-40GB"
+  },
+  "Gemma 4 12B": {
+   "deploy": "Local GPU",
+   "out_mean": 441.9629375428964,
+   "coverage": 1.0,
+   "tps": 600.138016476859,
+   "time100": 74.70002552493172,
+   "paid100": NaN,
+   "gpu": "NVIDIA A100-SXM4-40GB"
+  },
+  "Qwen3-8B": {
+   "deploy": "Local GPU",
+   "out_mean": 2157.2340425531916,
+   "coverage": 1.0,
+   "tps": 935.0919935964206,
+   "time100": 235.5782751856692,
+   "paid100": NaN,
+   "gpu": "NVIDIA A100-SXM4-40GB"
+  },
+  "Llama 3.1 8B": {
+   "deploy": "Local GPU",
+   "out_mean": 659.2144818119424,
+   "coverage": 1.0,
+   "tps": 512.6927435887509,
+   "time100": 129.9466944009797,
+   "paid100": NaN,
+   "gpu": "NVIDIA A100-SXM4-40GB"
+  }
+ },
+ "mode": "full",
+ "models": {
+  "ALLaM-7B": {
+   "backend": "local",
+   "vendor": "sdaia",
+   "params_b": 7.0,
+   "max_len": 4096,
+   "candidates": [
+    [
+     "humain-ai/ALLaM-7B-Instruct-preview",
+     null
+    ],
+    [
+     "ALLaM-AI/ALLaM-7B-Instruct-preview",
+     null
+    ]
+   ]
+  },
+  "GPT-OSS-20B": {
+   "backend": "local",
+   "vendor": "openai",
+   "params_b": 21.0,
+   "max_len": 24576,
+   "candidates": [
+    [
+     "openai/gpt-oss-20b",
+     null
+    ]
+   ],
+   "template_kwargs": {
+    "reasoning_effort": "medium"
+   }
+  },
+  "Gemma 4 12B": {
+   "backend": "local",
+   "vendor": "google",
+   "params_b": 12.0,
+   "max_len": 24576,
+   "candidates": [
+    [
+     "google/gemma-4-12B-it",
+     null
+    ],
+    [
+     "google/gemma-3-12b-it",
+     null
+    ]
+   ]
+  },
+  "Qwen3-8B": {
+   "backend": "local",
+   "vendor": "alibaba",
+   "params_b": 8.2,
+   "max_len": 24576,
+   "candidates": [
+    [
+     "Qwen/Qwen3-8B",
+     null
+    ]
+   ],
+   "template_kwargs": {
+    "enable_thinking": true
+   }
+  },
+  "Llama 3.1 8B": {
+   "backend": "local",
+   "vendor": "meta",
+   "params_b": 8.0,
+   "max_len": 24576,
+   "candidates": [
+    [
+     "meta-llama/Llama-3.1-8B-Instruct",
+     null
+    ]
+   ]
+  }
+ },
+ "load_status": {
+  "ALLaM-7B": {
+   "loaded": true,
+   "model": "humain-ai/ALLaM-7B-Instruct-preview@main",
+   "gpu": "NVIDIA A100-SXM4-40GB"
+  },
+  "GPT-OSS-20B": {
+   "loaded": true,
+   "model": "openai/gpt-oss-20b@main",
+   "gpu": "NVIDIA A100-SXM4-40GB"
+  },
+  "Gemma 4 12B": {
+   "loaded": true,
+   "model": "google/gemma-4-12B-it@main",
+   "gpu": "NVIDIA A100-SXM4-40GB"
+  },
+  "Qwen3-8B": {
+   "loaded": true,
+   "model": "Qwen/Qwen3-8B@main",
+   "gpu": "NVIDIA A100-SXM4-40GB"
+  },
+  "Llama 3.1 8B": {
+   "loaded": true,
+   "model": "meta-llama/Llama-3.1-8B-Instruct@main",
+   "gpu": "NVIDIA A100-SXM4-40GB"
+  },
+  "judge__GPT-OSS-20B": {
+   "loaded": true,
+   "model": "openai/gpt-oss-20b@main",
+   "gpu": "NVIDIA A100-SXM4-40GB"
+  },
+  "judge__Qwen3-8B": {
+   "loaded": true,
+   "model": "Qwen/Qwen3-8B@main",
+   "gpu": "NVIDIA A100-SXM4-40GB"
+  }
+ },
+ "gpu": "NVIDIA A100-SXM4-40GB, 40960 MiB",
+ "judges": [
+  "GPT-OSS-20B",
+  "Qwen3-8B"
+ ],
+ "gemini_reasoning_effort": null,
+ "max_tokens": 16384,
+ "temperature": null,
+ "stbench_commit": "2022eaa21128efdb48bb21017c2da5ad34f8b156",
+ "providers": {
+  "ALLaM-7B": [
+   "local:NVIDIA A100-SXM4-40GB"
+  ],
+  "GPT-OSS-20B": [
+   "local:NVIDIA A100-SXM4-40GB"
+  ],
+  "Gemma 4 12B": [
+   "local:NVIDIA A100-SXM4-40GB"
+  ],
+  "Llama 3.1 8B": [
+   "local:NVIDIA A100-SXM4-40GB"
+  ],
+  "Qwen3-8B": [
+   "local:NVIDIA A100-SXM4-40GB"
+  ]
+ },
+ "model_ids_returned": {
+  "ALLaM-7B": [
+   "humain-ai/ALLaM-7B-Instruct-preview@main"
+  ],
+  "GPT-OSS-20B": [
+   "openai/gpt-oss-20b@main"
+  ],
+  "Gemma 4 12B": [
+   "google/gemma-4-12B-it@main"
+  ],
+  "Llama 3.1 8B": [
+   "meta-llama/Llama-3.1-8B-Instruct@main"
+  ],
+  "Qwen3-8B": [
+   "Qwen/Qwen3-8B@main"
+  ]
+ }
+}
