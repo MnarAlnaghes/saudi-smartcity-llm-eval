@@ -1,4 +1,4 @@
-# Free and Sovereign LLMs for Saudi Smart Cities: A Comparative Evaluation
+# Sovereign LLMs for Saudi Smart Cities: A Comparative Evaluation
 
 Code, benchmark, and results for the paper *"Free and Sovereign LLMs for Saudi Smart Cities:
 A Comparative Evaluation"* (submitted to ICAISC 2027).
