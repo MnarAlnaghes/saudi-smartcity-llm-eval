@@ -1,4 +1,4 @@
-# Sovereign LLMs for Saudi Smart Cities: A Comparative Evaluation
+# Do Open LLMs Know Saudi Cities? Evaluating Sovereign AI for Smart-City Services
 
 Code, benchmark, and results for the paper *"Free and Sovereign LLMs for Saudi Smart Cities:
 A Comparative Evaluation"* (submitted to ICAISC 2027).
@@ -52,7 +52,7 @@ python benchmark/ksa_urbanbench.py ksa_districts ksa_urbanbench_items.jsonl 10
 
 ```bibtex
 @inproceedings{TODO_saudi_sovereign_llm_2027,
-  title     = {Free and Sovereign {LLMs} for {Saudi} Smart Cities: A Comparative Evaluation},
+  title     = {Do Open LLMs Know Saudi Cities? Evaluating Sovereign AI for Smart-City Services},
   author    = {TODO},
   booktitle = {Proc. 3rd Int. Conf. Advanced Innovations in Smart Cities (ICAISC)},
   year      = {2027}
